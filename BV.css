@@ -1,0 +1,196 @@
+*{box-sizing: border-box;}
+body
+{
+    background-color: silver;
+    font-size: 130%;
+}
+h1
+{
+    text-align: center;
+    font-weight: bold;
+    background-color: navy;
+    color: white;
+    margin: 0;
+}
+h2
+{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0;
+}
+h3
+{
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+    margin: 0;
+}
+nav a
+{
+    text-decoration: none;
+    
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    margin: 0;
+}
+nav li
+{
+    font-weight: bold;
+    font-size: 120%;
+}
+dl
+{
+    font-size: 130%;
+}
+dt
+{
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 2%;
+}
+dd
+{
+    text-indent:5%;
+    color: navy;
+}
+video
+{
+    float: left;
+    height: 600px;
+    width: 50%;
+    border: 5px solid navy;
+}
+form 
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+input
+{
+    width: 100%;
+    margin-bottom: 30px;
+    height: 50px;
+}
+textarea
+{
+    width: auto;
+    height: auto;
+    min-height: 200px;
+}
+label
+{
+    margin-bottom: 20px;
+}
+table
+{
+    border: 2px solid #3399CC;
+    border-collapse: collapse; 
+    width: 100%;
+    margin-top: 20px;
+}
+td, th
+{
+    padding: 0.5em;
+    border: 2px solid navy;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+}
+img
+{
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left
+{
+    float: left;
+    width: 20%;
+    margin: 0;
+    margin-right: 25px; 
+    background-color: white;
+    border: 10px solid navy;
+
+}
+.fig1
+{
+    margin: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    
+}
+.shop p
+{
+    font-weight: bold;
+}
+.shop
+{
+    float: left;
+    width: 20%;
+    margin: 0;
+    margin-right: 5%;
+    margin-left: 5%; 
+    background-color: white;
+    border: 10px solid navy;
+
+}
+.shop:first-of-type
+{
+    float: left;
+    width: 20%;
+    margin: 0;
+    margin-right: 5%;
+    margin-left: 9%; 
+    background-color: white;
+    border: 10px solid navy;
+}
+.beardindex
+{
+    width:100%;
+}
+.indexmain
+{
+    color: black;
+    font-size: 130%;
+}
+.productmain
+{
+    color: black;
+    font-size: 130%;
+    text-align: center;
+}
+.reviewmain
+{
+    color: black;
+    font-size: 130%;
+    text-align: center;
+}
+.contact
+{
+    text-align: center;
+}
+.contact ul
+{
+    list-style-type: none;
+}
+.right
+{
+    width: 10%;
+    float: right;
+}
+footer
+{
+    clear: both;
+    text-align: center;
+    font-size: small;
+}
